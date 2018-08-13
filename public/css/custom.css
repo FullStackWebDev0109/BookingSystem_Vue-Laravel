@@ -1,0 +1,18 @@
+
+.provider-list{
+    list-style: none !important;
+    margin: 10px 0px;
+}
+.provider-list .provider-list-item{
+    border-right: 1px #e3e3e3 solid;
+    border-left: 1px #e3e3e3 solid;
+    border-top: 1px #e3e3e3 solid;
+    width: 100%;
+}
+.provider-list .provider-list-item:last-child{
+    border-bottom: 1px #e3e3e3 solid;
+}
+.provider-list .provider-content {
+    padding: 10px;
+    text-align: center;
+}
